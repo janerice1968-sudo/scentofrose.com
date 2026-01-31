@@ -1,0 +1,8 @@
+{
+  "name": "Scent of Rose - Exquisite Adult Sanctuary",
+  "description": "A sophisticated and alluring portal for adult expression and intimate connections, where every click unveils a new petal of passion.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
