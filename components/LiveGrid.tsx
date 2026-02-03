@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Model } from '../types';
 
@@ -42,36 +41,38 @@ const MOCK_MODELS: Model[] = [
 ];
 
 const LiveGrid: React.FC = () => {
+  const trackingLink = "https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN";
+
   return (
-    <section id="explore" className="py-32 px-6 bg-red-950/5 backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 border-b border-white/10 pb-12">
+    <section id="explore" className="bg-red-950/5 py-32 px-6 backdrop-blur-sm">
+      <div className="mx-auto max-w-7xl">
+        <div className="mb-20 flex flex-col justify-between gap-8 border-b border-white/10 pb-12 md:flex-row md:items-end">
           <div>
-            <div className="text-red-500 font-bold text-[10px] uppercase tracking-[0.5em] mb-4">Live Sanctuary</div>
-            <h2 className="text-5xl md:text-6xl font-serif mb-4 leading-none text-white">The <span className="italic text-red-200">Blooming</span> Gallery.</h2>
-            <p className="text-white/60 max-w-md font-light tracking-wide italic">"Close your eyes and breathe... then open them to see what the fragrance reveals."</p>
+            <div className="mb-4 text-[10px] font-bold uppercase tracking-[0.5em] text-red-500">Live Sanctuary</div>
+            <h2 className="mb-4 font-serif text-5xl leading-none text-white md:text-6xl">The <span className="italic text-red-200">Blooming</span> Gallery.</h2>
+            <p className="max-w-md font-light italic tracking-wide text-white/60">"Close your eyes and breathe... then open them to see what the fragrance reveals."</p>
           </div>
           <div className="flex flex-wrap gap-4">
-            <a href="https://www.baidu.com" className="px-8 py-3 rounded-sm bg-white/10 text-[9px] font-bold uppercase tracking-widest hover:bg-red-500/30 transition-all border border-white/5 hover:border-red-500/50 text-white text-center block">Hottest Blooms</a>
-            <a href="https://www.baidu.com" className="px-8 py-3 rounded-sm border border-red-500/40 text-[9px] font-bold uppercase tracking-widest text-red-300 hover:bg-red-500 hover:text-white transition-all text-center block">Unveil Filters</a>
+            <a href={trackingLink} className="block rounded-sm border border-white/5 bg-white/10 px-8 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-white transition-all hover:border-red-500/50 hover:bg-red-500/30">Hottest Blooms</a>
+            <a href={trackingLink} className="block rounded-sm border border-red-500/40 px-8 py-3 text-center text-[9px] font-bold uppercase tracking-widest text-red-300 transition-all hover:bg-red-500 hover:text-white">Unveil Filters</a>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {MOCK_MODELS.map((model) => (
-            <div key={model.id} onClick={() => window.location.href = 'https://www.baidu.com'} className="group relative bg-[#1a1a1a]/40 border border-white/5 rounded-sm overflow-hidden flex flex-col shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition-all hover:border-red-500/30 hover:shadow-red-900/10 cursor-pointer">
+            <div key={model.id} onClick={() => window.location.href = trackingLink} className="group relative flex cursor-pointer flex-col overflow-hidden rounded-sm border border-white/5 bg-[#1a1a1a]/40 shadow-[0_20px_40px_rgba(0,0,0,0.5)] transition-all hover:border-red-500/30 hover:shadow-red-900/10">
               {/* Image Area */}
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img 
                   src={model.imageUrl} 
                   alt={model.name} 
-                  className="absolute inset-0 w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-[2s] opacity-90"
+                  className="absolute inset-0 h-full w-full object-cover opacity-90 grayscale-[10%] transition-all duration-[2s] group-hover:scale-105 group-hover:grayscale-0"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent"></div>
                 
                 {/* Status Label */}
-                <div className="absolute top-6 left-6 flex items-center gap-2">
-                  <div className={`w-1.5 h-1.5 rounded-full ${model.status === 'online' ? 'bg-red-500 shadow-[0_0_8px_rgba(239,68,68,1)]' : 'bg-white/40'}`}></div>
+                <div className="absolute left-6 top-6 flex items-center gap-2">
+                  <div className={`h-1.5 w-1.5 rounded-full ${model.status === 'online' ? 'bg-red-500 shadow-[0_0_8px_rgba(239,68,68,1)]' : 'bg-white/40'}`}></div>
                   <span className="text-[9px] font-bold uppercase tracking-[0.3em] text-white/90 drop-shadow-md">
                     {model.status === 'online' ? 'EXPOSED' : 'WAITING'}
                   </span>
@@ -79,10 +80,10 @@ const LiveGrid: React.FC = () => {
 
                 {/* Name and Tags Overlay */}
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-4xl font-serif text-white tracking-tighter mb-1 drop-shadow-lg">{model.name}</h3>
+                  <h3 className="mb-1 font-serif text-4xl tracking-tighter text-white drop-shadow-lg">{model.name}</h3>
                   <div className="flex flex-wrap gap-3">
                     {model.tags.map(tag => (
-                      <span key={tag} className="text-[8px] font-bold uppercase tracking-[0.2em] text-red-400 border-b border-red-500/30">
+                      <span key={tag} className="border-b border-red-500/30 text-[8px] font-bold uppercase tracking-[0.2em] text-red-400">
                         {tag}
                       </span>
                     ))}
@@ -91,8 +92,8 @@ const LiveGrid: React.FC = () => {
               </div>
 
               {/* Action Area */}
-              <div className="p-5 pt-0 mt-auto">
-                <a href="https://www.baidu.com" className="w-full py-4 bg-[#c22d2d] hover:bg-red-600 text-white text-[10px] font-bold uppercase tracking-[0.3em] rounded-sm transition-all duration-300 shadow-lg active:scale-95 text-center block">
+              <div className="mt-auto p-5 pt-0">
+                <a href={trackingLink} className="block w-full rounded-sm bg-[#c22d2d] py-4 text-center text-[10px] font-bold uppercase tracking-[0.3em] text-white shadow-lg transition-all duration-300 active:scale-95 hover:bg-red-600">
                   Taste the Moment
                 </a>
               </div>
@@ -101,9 +102,9 @@ const LiveGrid: React.FC = () => {
         </div>
 
         <div className="mt-28 text-center">
-          <a href="https://www.baidu.com" className="text-white/40 hover:text-red-500 transition-all uppercase tracking-[0.6em] text-[10px] font-bold flex flex-col items-center gap-6 mx-auto group text-center block">
-             <span className="text-xs italic lowercase font-serif opacity-70 group-hover:opacity-100 mb-2 text-red-200">more petals await...</span>
-            <div className="w-px h-20 bg-gradient-to-b from-white/20 to-red-500 group-hover:h-32 transition-all duration-1000 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
+          <a href={trackingLink} className="group mx-auto block flex flex-col items-center gap-6 text-center text-[10px] font-bold uppercase tracking-[0.6em] text-white/40 transition-all hover:text-red-500">
+             <span className="mb-2 font-serif text-xs italic lowercase text-red-200 opacity-70 group-hover:opacity-100">more petals await...</span>
+            <div className="h-20 w-px bg-gradient-to-b from-white/20 to-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)] transition-all duration-1000 group-hover:h-32"></div>
             Unveil The Rest
           </a>
         </div>
