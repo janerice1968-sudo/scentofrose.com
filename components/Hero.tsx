@@ -34,11 +34,11 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-10">
-          <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="w-full sm:w-auto px-16 py-6 bg-red-600 text-white font-bold uppercase tracking-[0.3em] text-[12px] rounded-sm hover:bg-red-500 transition-all shadow-[0_0_50px_rgba(220,38,38,0.4)] hover:shadow-[0_0_70px_rgba(220,38,38,0.6)] active:scale-95 group relative overflow-hidden text-center block">
+          <a href="https://www.baidu.com" className="w-full sm:w-auto px-16 py-6 bg-red-600 text-white font-bold uppercase tracking-[0.3em] text-[12px] rounded-sm hover:bg-red-500 transition-all shadow-[0_0_50px_rgba(220,38,38,0.4)] hover:shadow-[0_0_70px_rgba(220,38,38,0.6)] active:scale-95 group relative overflow-hidden text-center block">
             <span className="relative z-10">Uncover the Hidden</span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
           </a>
-          <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="w-full sm:w-auto px-16 py-6 glass border border-white/20 text-white font-bold uppercase tracking-[0.3em] text-[12px] rounded-sm hover:bg-white hover:text-black transition-all active:scale-95 bg-white/5 text-center block">
+          <a href="https://www.baidu.com" className="w-full sm:w-auto px-16 py-6 glass border border-white/20 text-white font-bold uppercase tracking-[0.3em] text-[12px] rounded-sm hover:bg-white hover:text-black transition-all active:scale-95 bg-white/5 text-center block">
             Step Into the Bloom
           </a>
         </div>

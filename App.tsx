@@ -66,8 +66,8 @@ const App: React.FC = () => {
                 "Some connections are written in the stars; ours are written in the shadows. Discover a soul that vibrates with your deepest, unspoken needs."
               </p>
               <div className="flex flex-col sm:flex-row gap-8">
-                 <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="px-16 py-6 bg-white text-black font-bold uppercase tracking-[0.3em] text-[11px] rounded-sm hover:bg-red-600 hover:text-white transition-all duration-700 shadow-lg text-center block">Reveal My Match</a>
-                 <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="px-16 py-6 border border-white/20 font-bold uppercase tracking-[0.3em] text-[11px] rounded-sm hover:bg-white/10 transition-all text-white text-center block">The Invitation</a>
+                 <a href="https://www.baidu.com" className="px-16 py-6 bg-white text-black font-bold uppercase tracking-[0.3em] text-[11px] rounded-sm hover:bg-red-600 hover:text-white transition-all duration-700 shadow-lg text-center block">Reveal My Match</a>
+                 <a href="https://www.baidu.com" className="px-16 py-6 border border-white/20 font-bold uppercase tracking-[0.3em] text-[11px] rounded-sm hover:bg-white/10 transition-all text-white text-center block">The Invitation</a>
               </div>
             </div>
             <div className="md:w-1/2 min-h-[600px] relative overflow-hidden">
@@ -87,7 +87,7 @@ const App: React.FC = () => {
 
         {/* Enticing Closing Quote - Lighter text */}
         <section className="py-56 px-6 text-center italic font-serif text-4xl md:text-6xl text-white/40 leading-tight">
-          <div className="max-w-5xl mx-auto group cursor-pointer" onClick={() => window.location.href = 'https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN'}>
+          <div className="max-w-5xl mx-auto group cursor-pointer" onClick={() => window.location.href = 'https://www.baidu.com'}>
             "Will you stay in the light where it's safe, <br /> 
             or <span className="text-white/70 group-hover:text-red-400 transition-colors duration-1000">surrender to the fragrance</span> of the dark?"
             <div className="mt-16 not-italic font-sans text-[11px] uppercase tracking-[0.8em] font-bold opacity-30 group-hover:opacity-60 transition-opacity">— Rose</div>
