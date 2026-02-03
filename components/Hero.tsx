@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             <span className="relative z-10">Uncover the Hidden</span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
           </a>
-          <a href="https://www.baidu.com" className="w-full sm:w-auto px-16 py-6 glass border border-white/20 text-white font-bold uppercase tracking-[0.3em] text-[12px] rounded-sm hover:bg-white hover:text-black transition-all active:scale-95 bg-white/5 text-center block">
+          <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="w-full sm:w-auto px-16 py-6 glass border border-white/20 text-white font-bold uppercase tracking-[0.3em] text-[12px] rounded-sm hover:bg-white hover:text-black transition-all active:scale-95 bg-white/5 text-center block">
             Step Into the Bloom
           </a>
         </div>
