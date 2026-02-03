@@ -52,8 +52,8 @@ const LiveGrid: React.FC = () => {
             <p className="text-white/60 max-w-md font-light tracking-wide italic">"Close your eyes and breathe... then open them to see what the fragrance reveals."</p>
           </div>
           <div className="flex flex-wrap gap-4">
-            <a href="https://www.baidu.com" className="px-8 py-3 rounded-sm bg-white/10 text-[9px] font-bold uppercase tracking-widest hover:bg-red-500/30 transition-all border border-white/5 hover:border-red-500/50 text-white text-center block">Hottest Blooms</a>
-            <a href="https://www.baidu.com" className="px-8 py-3 rounded-sm border border-red-500/40 text-[9px] font-bold uppercase tracking-widest text-red-300 hover:bg-red-500 hover:text-white transition-all text-center block">Unveil Filters</a>
+            <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="px-8 py-3 rounded-sm bg-white/10 text-[9px] font-bold uppercase tracking-widest hover:bg-red-500/30 transition-all border border-white/5 hover:border-red-500/50 text-white text-center block">Hottest Blooms</a>
+            <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="px-8 py-3 rounded-sm border border-red-500/40 text-[9px] font-bold uppercase tracking-widest text-red-300 hover:bg-red-500 hover:text-white transition-all text-center block">Unveil Filters</a>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ const LiveGrid: React.FC = () => {
 
               {/* Action Area */}
               <div className="p-5 pt-0 mt-auto">
-                <a href="https://www.baidu.com" className="w-full py-4 bg-[#c22d2d] hover:bg-red-600 text-white text-[10px] font-bold uppercase tracking-[0.3em] rounded-sm transition-all duration-300 shadow-lg active:scale-95 text-center block">
+                <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="w-full py-4 bg-[#c22d2d] hover:bg-red-600 text-white text-[10px] font-bold uppercase tracking-[0.3em] rounded-sm transition-all duration-300 shadow-lg active:scale-95 text-center block">
                   Taste the Moment
                 </a>
               </div>
@@ -101,7 +101,7 @@ const LiveGrid: React.FC = () => {
         </div>
 
         <div className="mt-28 text-center">
-          <a href="https://www.baidu.com" className="text-white/40 hover:text-red-500 transition-all uppercase tracking-[0.6em] text-[10px] font-bold flex flex-col items-center gap-6 mx-auto group text-center block">
+          <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="text-white/40 hover:text-red-500 transition-all uppercase tracking-[0.6em] text-[10px] font-bold flex flex-col items-center gap-6 mx-auto group text-center block">
              <span className="text-xs italic lowercase font-serif opacity-70 group-hover:opacity-100 mb-2 text-red-200">more petals await...</span>
             <div className="w-px h-20 bg-gradient-to-b from-white/20 to-red-500 group-hover:h-32 transition-all duration-1000 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
             Unveil The Rest
