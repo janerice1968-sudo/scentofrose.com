@@ -87,7 +87,7 @@ const App: React.FC = () => {
 
         {/* Enticing Closing Quote - Lighter text */}
         <section className="py-56 px-6 text-center italic font-serif text-4xl md:text-6xl text-white/40 leading-tight">
-          <div className="max-w-5xl mx-auto group cursor-pointer" onClick={() => window.location.href = 'https://www.baidu.com'}>
+          <div className="max-w-5xl mx-auto group cursor-pointer" onClick={() => window.location.href = 'https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN'}>
             "Will you stay in the light where it's safe, <br /> 
             or <span className="text-white/70 group-hover:text-red-400 transition-colors duration-1000">surrender to the fragrance</span> of the dark?"
             <div className="mt-16 not-italic font-sans text-[11px] uppercase tracking-[0.8em] font-bold opacity-30 group-hover:opacity-60 transition-opacity">— Rose</div>
