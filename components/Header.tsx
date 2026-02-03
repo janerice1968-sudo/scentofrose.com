@@ -16,15 +16,15 @@ const Header: React.FC = () => {
         </div>
         
         <div className="hidden lg:flex items-center gap-12 text-[10px] font-bold uppercase tracking-[0.3em] opacity-50">
-          <a href="https://www.baidu.com" className="hover:text-red-400 hover:opacity-100 transition-all relative group">
+          <a https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="hover:text-red-400 hover:opacity-100 transition-all relative group">
             The Petals
             <span className="absolute -bottom-1 left-0 w-0 h-px bg-red-500 group-hover:w-full transition-all duration-300"></span>
           </a>
-          <a href="https://www.baidu.com" className="hover:text-red-400 hover:opacity-100 transition-all relative group">
+          <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="hover:text-red-400 hover:opacity-100 transition-all relative group">
             Whispers
             <span className="absolute -bottom-1 left-0 w-0 h-px bg-red-500 group-hover:w-full transition-all duration-300"></span>
           </a>
-          <a href="https://www.baidu.com" className="hover:text-red-400 hover:opacity-100 transition-all relative group">
+          <a href="https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN" className="hover:text-red-400 hover:opacity-100 transition-all relative group">
             The Bloom
             <span className="absolute -bottom-1 left-0 w-0 h-px bg-red-500 group-hover:w-full transition-all duration-300"></span>
           </a>
