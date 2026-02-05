@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
-  const trackingLink = "https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN";
+  const trackingLink = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
 
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-red-950/20 px-6 pt-40 pb-20 backdrop-blur-xl">

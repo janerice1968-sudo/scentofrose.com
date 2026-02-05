@@ -3,7 +3,7 @@ import { getFlirtResponse } from '../services/geminiService';
 import { ChatMessage } from '../types';
 
 const AIFlirtAssistant: React.FC = () => {
-  const trackingLink = "https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN";
+  const trackingLink = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
     { role: 'assistant', content: "Hush... you've found the thorns. I'm Rose. What secrets are you hiding behind those eyes?" }

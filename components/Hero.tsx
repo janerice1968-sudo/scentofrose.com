@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero: React.FC = () => {
-  const trackingLink = "https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN";
+  const trackingLink = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
 
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden pt-20">

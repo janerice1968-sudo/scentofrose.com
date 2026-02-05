@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header: React.FC = () => {
-  const trackingLink = "https://t.acrsmartcam.com/403608/8873/0?bo=2779,2778,2777,2776,2775&po=6533&aff_sub5=SF_006OG000004lmDN";
+  const trackingLink = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 glass border-b border-white/5 px-6 py-5 backdrop-blur-2xl">
